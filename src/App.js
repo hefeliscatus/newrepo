@@ -9,6 +9,9 @@ import logo from './logo.svg';
 
 function App() {
   return (<Router>
+<UserProvider>
+      <Application />
+    </UserProvider>
     <div class="splits left">
   <div class="centered">
     <h2>Welcome to TypeShare</h2>
